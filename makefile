@@ -14,8 +14,8 @@ OBJS	=
 
 # 生成規則
 all:
-	$(CC) $(CFLAGS) /d:UTEST CapWrite.cs
-	$(CC) $(CFLAGS) /d:CAPREAD_UTEST CapRead.cs $(LIBS)
+	$(CC) $(CFLAGS) /d:UTEST CapStruct.cs CapWrite.cs
+	$(CC) $(CFLAGS) /d:CAPREAD_UTEST CapStruct.cs CapRead.cs $(LIBS)
 
 
 ###
